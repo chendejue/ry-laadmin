@@ -1,0 +1,64 @@
+<?php
+
+namespace DummyNamespace;
+
+use DummyModelNamespace;
+use RuiYi\LaAdmin\Form;
+use RuiYi\LaAdmin\Grid;
+use RuiYi\LaAdmin\Show;
+use RuiYi\LaAdmin\Http\Controllers\AdminController;
+use RuiYi\LaAdmin\Layout\Content;
+use RuiYi\LaAdmin\Admin;
+
+class DummyClass extends AdminController
+{
+    /**
+     * page index
+     */
+    public function index(Content $content)
+    {
+        return $content
+            ->header(admin_trans_label())
+            ->description('全部')
+            ->breadcrumb(['text'=> admin_trans_label().'列表','url'=>''])
+            ->body($this->grid());
+    }
+
+    /**
+     * Make a grid builder.
+     *
+     * @return Grid
+     */
+    protected function grid()
+    {
+        return Grid::make(new DummyModel(), function (Grid $grid) {
+            {grid}
+        });
+    }
+
+    /**
+     * Make a show builder.
+     *
+     * @param mixed $id
+     *
+     * @return Show
+     */
+    protected function detail($id)
+    {
+        return Show::make($id, new DummyModel(), function (Show $show) {
+            {show}
+        });
+    }
+
+    /**
+     * Make a form builder.
+     *
+     * @return Form
+     */
+    protected function form()
+    {
+        return Form::make(new DummyModel(), function (Form $form) {
+            {form}
+        });
+    }
+}
