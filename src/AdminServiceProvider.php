@@ -115,7 +115,7 @@ class AdminServiceProvider extends ServiceProvider {
             if (file_exists(base_path('config/scramble.php'))) {
                 View::composer('scramble::docs', function ($view) {
                     // 重新指定视图路径
-                    $view->setPath(base_path('vendor/RuiYi/laAdmin/resources/views/apidoc/docs.blade.php'));
+                    $view->setPath(base_path('vendor/ruiyi/laadmin/resources/views/apidoc/docs.blade.php'));
                 });
             }
         });
