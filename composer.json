@@ -1,5 +1,5 @@
 {
-    "name": "RuiYi/LaAdmin",
+    "name": "ruiyi/La-admin",
     "description": "一个基于larval的后台管理插件包，基于dcat-admin改造而来。",
     "type": "library",
     "keywords": ["ruiyi","saas", "laravel", "admin", "grid", "form", "laravel saas admin"],
