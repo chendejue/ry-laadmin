@@ -119,7 +119,7 @@ class ExtensionController extends AdminController
                 ];
             })->required();
             //$form->text('namespace','命名空间')->help('例如: RuiYi\LaAdmin\Demo')->required();
-            $form->image('logo','图标')->width(3)->removable(false)->default('/vendor/RuiYi-LaAdmin/images/cxbanglogo.png')->required();
+            $form->image('logo','图标')->width(3)->removable(false)->default('/vendor/ruiyi/laadmin/images/cxbanglogo.png')->required();
             $form->select('type','类型')->help('')->options([1 => trans('admin.application'), 2 => trans('admin.theme')])
                 ->attribute('style', 'width:140px!important')
                 ->default(1)
