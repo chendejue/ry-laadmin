@@ -27,8 +27,8 @@
         width: 100%;
     }
 </style>
-<link rel="stylesheet" href="/vendor/dcat-admin/dcat/plugins/fontawesome-iconpicker/dist/css/fontawesome-iconpicker.min.css">
-<script src="/vendor/dcat-admin/dcat/plugins/fontawesome-iconpicker/dist/js/fontawesome-iconpicker.js"></script>
+<link rel="stylesheet" href="/vendor/ruiyi/laadmin/dcat/plugins/fontawesome-iconpicker/dist/css/fontawesome-iconpicker.min.css">
+<script src="/vendor/ruiyi/laadmin/dcat/plugins/fontawesome-iconpicker/dist/js/fontawesome-iconpicker.js"></script>
 <div class="card">
     <div style="height:10px"></div>
     <!-- /.box-header -->

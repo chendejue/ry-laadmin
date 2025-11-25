@@ -29,7 +29,7 @@ class ExtensionMakeProCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Build a dcat-admin extension';
+    protected $description = 'Build a ruiyi-laadmin extension';
 
     /**
      * @var string

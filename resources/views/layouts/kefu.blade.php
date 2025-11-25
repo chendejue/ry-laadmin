@@ -1,7 +1,7 @@
 <style>
     .web-icon {
         /*background: url(../../yasuotu/images/cexuanfu.png) no-repeat*/
-        background: url({{asset('/vendor/dcat-admin/images/kefu_float.png')}}) no-repeat;
+        background: url({{asset('/vendor/ruiyi/laadmin/images/kefu_float.png')}}) no-repeat;
     }
     .serve-kefu {
         width: 70px;
@@ -215,7 +215,7 @@
         <li class="web-icon kefu-wx-icon">
             <div class="kf_wrap gzh_wrap">
                 <div class="kefu-wx wxkf_ewm">
-                    <img src="/vendor/dcat-admin/images/wxgzh_qrcode.jpg" alt="">
+                    <img src="/vendor/ruiyi/laadmin/images/wxgzh_qrcode.jpg" alt="">
                     <p>扫描二维码关注</p>
                     <p>了解更多极速开发</p>
                 </div>
@@ -229,28 +229,28 @@
                         <div class="kftitle"><i class="qkfIcon"></i>
                             <p>QQ客服咨询</p>
                         </div>
-                        <div>客服QQ: 3664839</div>
-                        <div><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=3664839&amp;site=qq&amp;menu=yes" target="_blank" class="kfBtn">联系客服</a></div>
+                        <div>客服QQ: 659915956</div>
+                        <div><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=659915956&amp;site=qq&amp;menu=yes" target="_blank" class="kfBtn">联系客服</a></div>
                         <div class="kftitle"><i class="wxkfIcon"></i>
                             <p>微信客服咨询</p>
                         </div>
                         <div>
-                            <img src="/vendor/dcat-admin/images/wx-qrcode.jpeg" alt="" style="width: 96px;height: 96px">
+                            <img src="/vendor/ruiyi/laadmin/images/wx-qrcode.jpeg" alt="" style="width: 96px;height: 96px">
                         </div>
                         <div class="kftitle"><i class="phoneIcon"></i>
                             <p>联系电话</p>
                         </div>
-                        <div>微信号: Q3664839</div>
+                        <div>微信号: 659915956</div>
                         <div>周一至周六08:30 - 17:00</div>
                     </ul>
                 </div>
             </div>
         </li>
         <li class="web-icon kefu-help-icon">
-            <a href="https://www.dcat-admin.com/books/dcatplus-admin/#/" target="_blank"></a>
+            <a href="https://www.ruiyiok.com/" target="_blank"></a>
         </li>
         <li class="web-icon kefu-question-icon">
-            <a href="https://forum.saishiyun.net/d/55-dcat-admin-de-wen-juan-diao-cha-qi-dai-ni-de-can-ru" target="_blank"></a>
+            <a href="https://www.ruiyiok.com/" target="_blank"></a>
         </li>
         <li class="web-icon kefu-back-icon" onclick="$(&quot;html,body&quot;).animate({&quot;scrollTop&quot;:0});" style="display: none;"> </li>
     </ul>

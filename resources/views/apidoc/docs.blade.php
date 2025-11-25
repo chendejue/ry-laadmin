@@ -6,8 +6,8 @@
     <meta name="color-scheme" content="{{ $config->get('ui.theme', 'light') }}">
     <title>{{ $config->get('ui.title', config('app.name') . ' - API Docs') }}</title>
 
-    <script src="{{asset('vendor/ruiyi/laadmin/plugins/apidoc/apidoc-web-components.min.js')}}"></script>
-    <link rel="stylesheet" href="{{asset('vendor/ruiyi/laadmin/plugins/apidoc/apidoc-styles.min.css')}}">
+    <script src="{{asset('/vendor/ruiyi/laadmin/plugins/apidoc/apidoc-web-components.min.js')}}"></script>
+    <link rel="stylesheet" href="{{asset('/vendor/ruiyi/laadmin/plugins/apidoc/apidoc-styles.min.css')}}">
 
     <script>
         const originalFetch = window.fetch;

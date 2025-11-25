@@ -43,7 +43,7 @@
     <div class="metric-content">{!! $content !!}</div>
 </div>
 
-<script src="/vendor/dcat-admin/dcat/plugins/moment/moment.min.js"></script>
-<script src="/vendor/dcat-admin/dcat/plugins/bootstrap-datepicker/daterangepicker.min.js"></script>
-<link rel="stylesheet" href="/vendor/dcat-admin/dcat/plugins/bootstrap-datepicker/daterangepicker.css"/>
+<script src="/vendor/ruiyi/laadmin/dcat/plugins/moment/moment.min.js"></script>
+<script src="/vendor/ruiyi/laadmin/dcat/plugins/bootstrap-datepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" href="/vendor/ruiyi/laadmin/dcat/plugins/bootstrap-datepicker/daterangepicker.css"/>
 

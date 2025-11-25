@@ -27,15 +27,12 @@
 <div class="dashboard-title card bg-primary">
     <div class="card-body">
         <div class="text-center ">
-            <img class="avatar img-circle shadow mt-1" src="https://m.saishiyun.net/imgpic/work-photo.png">
+            <img class="avatar img-circle shadow mt-1" src="https://www.ruiyiok.com/avatar.png">
             <div class="text-center mb-1">
-                <div class="mb-1 mt-1 text-white">微信号:Q3664839</div>
-                <h1 class="mb-1 mt-1 text-white">杨光</h1>
+                <div class="mb-1 mt-1 text-white">微信号:bobby1017</div>
+                <h1 class="mb-1 mt-1 text-white">陈德爵</h1>
                 <div class="links">
-                    <a href="https://www.saishiyun.net" target="_blank">个人博客</a>
-                    {{--<a href="http://www.dcatadmin.com/" id="doc-link" target="_blank">{{ __('admin.documentation') }}</a>
-                    <a href="http://www.dcatadmin.com/" id="demo-link" target="_blank">{{ __('admin.extensions') }}</a>
-                    <a href="https://jqhph.github.io/dcat-admin/demo.html" id="demo-link" target="_blank"></a>--}}
+                    <a href="https://www.ruiyiok.com" target="_blank">网址</a>
                 </div>
             </div>
         </div>

@@ -14,10 +14,10 @@ class Asset
      * @var array
      */
     protected $alias = [
-        // Dcat Admin静态资源路径别名
-        '@admin' => 'vendor/dcat-admin',
-        // Dcat Acmin扩展静态资源路径别名
-        '@extension' => 'vendor/dcat-admin-extensions',
+        // 静态资源路径别名
+        '@admin' => 'vendor/ruiyi/laadmin',
+        // 扩展静态资源路径别名
+        '@extension' => 'vendor/ruiyi/laadmin/extensions',
 
         '@adminlte' => [
             'js' => [

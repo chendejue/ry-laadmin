@@ -39,7 +39,7 @@ class OpenApiDocsController extends Controller {
 <div class="row">
     <div class="col-md-3">
         <div class="card h-100 book-card">
-                    <img src="/vendor/dcat-admin/images/admin-api-logo.jpg"
+                    <img src="/vendor/ruiyi/laadmin/images/admin-api-logo.jpg"
                          class="card-img-top book-cover">
                     <div class="card-body">
                         <span class="badge bg-primary mb-2">管理端</span>
@@ -59,7 +59,7 @@ class OpenApiDocsController extends Controller {
     </div>
    <div class="col-md-3">
         <div class="card h-100 book-card">
-                    <img src="/vendor/dcat-admin/images//member-api-logo.jpg"
+                    <img src="/vendor/ruiyi/laadmin/images//member-api-logo.jpg"
                          class="card-img-top book-cover">
                     <div class="card-body">
                         <span class="badge bg-success mb-2">用户端</span>

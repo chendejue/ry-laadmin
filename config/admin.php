@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<img src="/vendor/ruiyi-laadmin/images/logo.png" width="35"> &nbsp;RuiYi LaAdmin',
+    'logo' => '<img src="/vendor/ruiyi/laadmin/images/logo.png" width="35"> &nbsp;RuiYi LaAdmin',
 
     /*
     |--------------------------------------------------------------------------
@@ -34,7 +34,7 @@ return [
     | '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo-mini' => '<img src="/vendor/ruiyi-laadmin/images/logo.png">',
+    'logo-mini' => '<img src="/vendor/ruiyi/laadmin/images/logo.png">',
 
     /*
     |--------------------------------------------------------------------------
