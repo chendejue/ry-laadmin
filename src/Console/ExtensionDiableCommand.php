@@ -7,7 +7,7 @@ use Illuminate\Console\Command;
 
 class ExtensionDiableCommand extends Command
 {
-    protected $signature = 'admin:ext-disable {name : The name of the extension. Eg: author-name/extension-name} ';
+    protected $signature = 'ryadmin:ext-disable {name : The name of the extension. Eg: author-name/extension-name} ';
 
     protected $description = 'Disable an existing extension';
 

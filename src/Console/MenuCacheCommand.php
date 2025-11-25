@@ -11,7 +11,7 @@ class MenuCacheCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'admin:menu-cache';
+    protected $signature = 'ryadmin:menu-cache';
 
     /**
      * The console command description.

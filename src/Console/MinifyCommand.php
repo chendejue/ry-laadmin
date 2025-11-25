@@ -17,7 +17,7 @@ class MinifyCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'admin:minify {name}
+    protected $signature = 'ryadmin:minify {name}
         {--color= : Theme color code}
         {--publish : Publish assets files}';
 

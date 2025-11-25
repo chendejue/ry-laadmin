@@ -8,7 +8,7 @@ use Illuminate\Support\Arr;
 
 class ExtensionInstallCommand extends Command
 {
-    protected $signature = 'admin:ext-install
+    protected $signature = 'ryadmin:ext-install
     {name : The name of the extension. Eg: author-name/extension-name}
     {--path= : The path of the extension.}';
 

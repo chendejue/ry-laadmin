@@ -12,7 +12,7 @@ class UninstallCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'admin:uninstall';
+    protected $signature = 'ryadmin:uninstall';
 
     /**
      * The console command description.

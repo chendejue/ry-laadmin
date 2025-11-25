@@ -7,7 +7,7 @@ use Illuminate\Console\Command;
 
 class ExtensionRefreshCommand extends Command
 {
-    protected $signature = 'admin:ext-refresh
+    protected $signature = 'ryadmin:ext-refresh
     {name : The name of the extension. Eg: author-name/extension-name}
     {--path= : The path of the extension.}';
 

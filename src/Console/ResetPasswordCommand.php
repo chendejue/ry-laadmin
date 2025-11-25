@@ -11,7 +11,7 @@ class ResetPasswordCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'admin:reset-password';
+    protected $signature = 'ryadmin:reset-password';
 
     /**
      * The console command description.

@@ -9,7 +9,7 @@ class FormCommand extends GeneratorCommand
      *
      * @var string
      */
-    protected $signature = 'admin:form {name}
+    protected $signature = 'ryadmin:form {name}
         {--namespace=}
         {--base=}';
 

@@ -9,7 +9,7 @@ class ActionCommand extends GeneratorCommand
      *
      * @var string
      */
-    protected $signature = 'admin:action';
+    protected $signature = 'ryadmin:action';
 
     /**
      * The console command description.

@@ -14,25 +14,27 @@ class AdminCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'admin';
+    protected $signature = 'ryadmin';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'List all admin commands';
+    protected $description = 'List all ryadmin commands';
 
     /**
      * @var string
      */
     public static $logo = <<<LOGO
 
-    ____   ______ ___   ______   ___     ____   __  ___ ____ _   __
-   / __ \ / ____//   | /_  __/  /   |   / __ \ /  |/  //  _// | / /
-  / / / // /    / /| |  / /    / /| |  / / / // /|_/ / / / /  |/ /
- / /_/ // /___ / ___ | / /    / ___ | / /_/ // /  / /_/ / / /|  /
-/_____/ \____//_/  |_|/_/    /_/  |_|/_____//_/  /_//___//_/ |_/
+
+,------. ,--. ,--.,--.,--.   ,--.,--.
+|  .--. '|  | |  ||  | \  `.'  / |  |
+|  '--'.'|  | |  ||  |  '.    /  |  |
+|  |\  \ '  '-'  '|  |    |  |   |  |
+`--' '--' `-----' `--'    `--'   `--'
+
 
 LOGO;
 
@@ -58,7 +60,7 @@ LOGO;
     protected function listAdminCommands()
     {
         $commands = collect(Artisan::all())->mapWithKeys(function ($command, $key) {
-            if (Str::startsWith($key, 'admin:')) {
+            if (Str::startsWith($key, 'ryadmin:')) {
                 return [$key => $command];
             }
 

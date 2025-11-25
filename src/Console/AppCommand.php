@@ -12,7 +12,7 @@ class AppCommand extends InstallCommand
      *
      * @var string
      */
-    protected $signature = 'admin:app {name}';
+    protected $signature = 'ryadmin:app {name}';
 
     /**
      * The console command description.

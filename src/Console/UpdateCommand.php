@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 
 class UpdateCommand extends Command
 {
-    protected $signature = 'admin:update';
+    protected $signature = 'ryadmin:update';
 
     protected $description = 'Update the admin package';
 

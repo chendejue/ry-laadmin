@@ -14,7 +14,7 @@ class ExtensionMakeCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'admin:ext-make
+    protected $signature = 'ryadmin:ext-make
     {name : The name of the extension. Eg: author-name/extension-name}
     {--namespace= : The namespace of the extension.}
     {--theme}

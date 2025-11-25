@@ -11,7 +11,7 @@ class ExportSeedCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'admin:export-seed {classname=AdminTablesSeeder}
+    protected $signature = 'ryadmin:export-seed {classname=AdminTablesSeeder}
                                               {--users : add to seed users tables}';
 
     /**

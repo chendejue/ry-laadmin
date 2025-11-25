@@ -23,7 +23,7 @@ class IdeHelperCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'admin:ide-helper  {--c|controller= : Controller class. } ';
+    protected $signature = 'ryadmin:ide-helper  {--c|controller= : Controller class. } ';
 
     /**
      * The console command description.
