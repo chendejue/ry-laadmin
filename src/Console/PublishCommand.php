@@ -18,7 +18,7 @@ class PublishCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'admin:publish
+    protected $signature = 'ryadmin:publish
     {--force : Overwrite any existing files}
     {--lang : Publish language files}
     {--assets : Publish assets files}
