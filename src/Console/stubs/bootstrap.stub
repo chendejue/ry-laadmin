@@ -1,30 +1,30 @@
 <?php
 
-use Dcat\Admin\Admin;
-use Dcat\Admin\Grid;
-use Dcat\Admin\Form;
-use Dcat\Admin\Grid\Filter;
-use Dcat\Admin\Show;
+use RuiYi\LaAdmin\Admin;
+use RuiYi\LaAdmin\Grid;
+use RuiYi\LaAdmin\Form;
+use RuiYi\LaAdmin\Grid\Filter;
+use RuiYi\LaAdmin\Show;
 
 /**
- * Dcat-admin - admin builder based on Laravel.
- * @author jqh <https://github.com/jqhph>
+ * RuiYi-LaAdmin - admin builder based on Laravel.
+ * @author 陈德爵 <https://github.com/chendejue>
  *
  * Bootstraper for Admin.
  *
  * Here you can remove builtin form field:
  *
  * extend custom field:
- * Dcat\Admin\Form::extend('php', PHPEditor::class);
- * Dcat\Admin\Grid\Column::extend('php', PHPEditor::class);
- * Dcat\Admin\Grid\Filter::extend('php', PHPEditor::class);
+ * RuiYi\LaAdmin\Form::extend('php', PHPEditor::class);
+ * RuiYi\LaAdmin\Grid\Column::extend('php', PHPEditor::class);
+ * RuiYi\LaAdmin\Grid\Filter::extend('php', PHPEditor::class);
  *
  * Or require js and css assets:
  * Admin::css('/packages/prettydocs/css/styles.css');
  * Admin::js('/packages/prettydocs/js/main.js');
  *
  */
-Admin::menu(function (\Dcat\Admin\Layout\Menu $menu) {
+Admin::menu(function (\RuiYi\LaAdmin\Layout\Menu $menu) {
     $menu->add([
         [
             'id'        => 1,

@@ -346,7 +346,7 @@ class CurlUtil
 
     public static function defaultUserAgent()
     {
-        $userAgent = 'RuiYi/1.2.3 PHP/' . PHP_VERSION . ' OS/' . PHP_OS;
+        $userAgent = 'RuiYi/1.1.1 PHP/' . PHP_VERSION . ' OS/' . PHP_OS;
         /*$appInfo = [];
         if (class_exists(\App\Constant\AppConstant::class)) {
             if (defined('\\App\\Constant\\AppConstant::APP')) {
