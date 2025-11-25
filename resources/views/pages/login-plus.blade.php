@@ -129,10 +129,10 @@
         <div class="content-front"></div>
         <div class="login-description">
             <p class="lead">
-                专注于Laravel项目的极速开发
+                快速开发后台框
             </p>
             <p>
-                速码邦
+                锐壹科技
             </p>
         </div>
     </div>
