@@ -129,10 +129,10 @@
         <div class="content-front"></div>
         <div class="login-description">
             <p class="lead">
-                快速开发后台框
+                {!! config('admin.slogan') !!}
             </p>
             <p>
-                锐壹科技
+                {!! config('admin.company') !!}
             </p>
         </div>
     </div>
@@ -144,7 +144,7 @@
 
             <div class="login-box">
                 <div class="login-logo mb-2">
-                    <h4 class="mt-0">让程序员工作更简单高效</h4>
+                    <h4 class="mt-0">{!! config('admin.slogan') !!}</h4>
                     <p class="login-box-msg mt-1 mb-1">{{ __('admin.welcome_back') }}</p>
                 </div>
                 <div class="card card-primary card-outline card-outline-tabs" style="box-shadow:0 0 1px rgba(0,0,0,.125),0 1px 3px rgba(0,0,0,.2)">

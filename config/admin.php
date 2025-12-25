@@ -388,4 +388,9 @@ return [
         // 'reseller'  => true,
         // 'brand'     => true,
     ],
+    /*
+    |更多的配置项
+    */
+    'slogan'                    => '快速开发后台框架',// 口号
+    'company'                   => '锐壹科技',// 公司名称
 ];

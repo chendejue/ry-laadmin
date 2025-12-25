@@ -12,7 +12,7 @@ class UpdateCommand extends Command
 
     public function handle()
     {
-        $this->call('admin:publish', [
+        $this->call('ryadmin:publish', [
             '--assets'     => true,
             '--migrations' => true,
             '--lang'       => true,

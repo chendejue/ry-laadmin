@@ -351,4 +351,30 @@ return [
     | Whether enable default breadcrumb for every page content.
     */
     'enable_default_breadcrumb' => true,
+    
+    /*
+    |--------------------------------------------------------------------------
+    | Extension
+    |--------------------------------------------------------------------------
+    */
+    'extension' => [
+        // When you use command `php artisan admin:ext-make` to generate extensions,
+        // the extension files will be generated in this directory.
+        'dir' => base_path('ruiyi-laadmin-extensions'),
+    ],
+    /*
+    |--------------------------------------------------------------------------
+    | 多应用
+    |--------------------------------------------------------------------------
+    */
+    'multi_app'                 => [
+        // 'seller'    => true,
+        // 'reseller'  => true,
+        // 'brand'     => true,
+    ],
+    /*
+    |更多的配置项
+    */
+    'slogan'                    => '快速开发后台框架',// 口号
+    'company'                   => '锐壹科技',// 公司名称
 ];
