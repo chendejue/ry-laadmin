@@ -11,7 +11,7 @@ class Role extends Model
 {
     use HasDateTimeFormatter;
 
-    const ADMINISTRATOR = 'administrator';
+    const ADMINISTRATOR = 'ruiyi';
 
     const ADMINISTRATOR_ID = 1;
 
