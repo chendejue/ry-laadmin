@@ -29,7 +29,7 @@
         <div class="text-center ">
             <img class="avatar img-circle shadow mt-1" src="https://www.ruiyiok.com/avatar.png">
             <div class="text-center mb-1">
-                <div class="mb-1 mt-1 text-white">微信号:bobby1017</div>
+                <div class="mb-1 mt-1 text- white">微信号:bobby1017</div>
                 <h1 class="mb-1 mt-1 text-white">陈德爵</h1>
                 <div class="links">
                     <a href="https://www.ruiyiok.com" target="_blank">网址</a>

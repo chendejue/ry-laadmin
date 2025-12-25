@@ -144,7 +144,7 @@
 
             <div class="login-box">
                 <div class="login-logo mb-2">
-                    <h4 class="mt-0">让后台开发更简单</h4>
+                    <h4 class="mt-0">让程序员工作更简单高效</h4>
                     <p class="login-box-msg mt-1 mb-1">{{ __('admin.welcome_back') }}</p>
                 </div>
                 <div class="card card-primary card-outline card-outline-tabs" style="box-shadow:0 0 1px rgba(0,0,0,.125),0 1px 3px rgba(0,0,0,.2)">
